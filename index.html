@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page using Bootstrap</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Bootstrap Embeded -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- BootStrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous" defer ></script>
+
+    <!-- Popinns font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </body>
+</head>
+<body>
+
+  <!-- Nav Bar --------------------------------->
+  <nav class="navbar navbar-expand-sm bg-body-tertiary sticky-top">
+    <div class="container">
+      <a class="" href="#">
+        <img src="./img/logo.svg" class="" width="125" alt="">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav py-2 ps-2 ms-auto text-center "> 
+          <a class="nav-link fw-bold text-black" href="#">Features</a>
+          <a class="nav-link fw-bold text-black" href="#">App</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section ---------------------------->
+   <section class="hero_container  container-fluid d-flex justify-content-center align-items-center">
+    <div class="hero ">
+      <div class="hero_area    py-3">
+        <h1 class="text-white text-center fw-bolder ">Your Personal Assistant</h1>
+        <h2 class="text-white text-center h3">One stop solution for your services. Order any service, anytime</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 my-2">
+          <div class="bg-white d-flex justify-content-center align-items-center rounded py-3">
+            <img src="./img/location.svg" alt=""> <span class="ps-2 fw-bold">Kushtia</span>
+          </div>
+        </div>
+        <div class="col-sm-9 my-2">
+          <input type="search" class=" bg-white d-flex justify-content-center align-items-center rounded
+          w-100 py-3 input-field">
+        </div>
+      </div>
+    </div>
+   </section>
+  
+  <!-- hero Feature ---------------------------->
+   <div class=" container ">
+    <div class="bg-white hero-features-container rounded shadow-sm mb-3 mx-2 position-relative z-1">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-2 col-sm-4 col-6 py-3">
+          <img class="img-fluid mx-auto d-block" src="./img/hf1.jpg" width="40" alt="">
+          <h2 class="feature_title text-center py-2">Best Deal</h2>
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 py-3">
+          <img class="img-fluid mx-auto d-block" src="./img/hf2.jpg" width="40" alt="">
+          <h2 class="feature_title text-center py-2">Best Deal</h2>
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 py-3">
+          <img class="img-fluid mx-auto d-block" src="./img/hf3.jpg" width="40" alt="">
+          <h2 class="feature_title text-center py-2">Best Deal</h2>
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 py-3">
+          <img class="img-fluid mx-auto d-block" src="./img/hf4.jpg" width="40" alt="">
+          <h2 class="feature_title text-center py-2">Best Deal</h2>
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 py-3">
+          <img class="img-fluid mx-auto d-block" src="./img/hf5.jpg" width="40" alt="">
+          <h2 class="feature_title text-center py-2">Best Deal</h2>
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 py-3">
+          <img class="img-fluid mx-auto d-block" src="./img/hf6.jpg" width="40" alt="">
+          <h2 class="feature_title text-center py-2">Best Deal</h2>
+        </div>
+      </div>
+    </div>
+   </div>
+   <!-- Emi Image -->
+   <div class="container">
+    <img src="./img/emi.jpg" alt="emi" class="emi_img img-fluid my-2 ">
+   </div>
+
+   <!-- For Your Home -->
+  <section class="container">
+    <h4 class="my-2 fs-3  text-md-start text-sm-center">For Your Home</h4>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <img src="./img/h1.jpg" alt="" class="img-fluid rounded my-1 mx-auto d-block">
+        <h6 class="fw-bold text-center my-1">Gas Stove/Burner Services</h6>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <img src="./img/h2.jpg" alt="" class="img-fluid rounded my-1 mx-auto d-block">
+        <h6 class="fw-bold text-center my-1">Gas Stove/Burner Services</h6>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <img src="./img/h3.jpg" alt="" class="img-fluid rounded my-1 mx-auto d-block">
+        <h6 class="fw-bold text-center my-1">Gas Stove/Burner Services</h6>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <img src="./img/h4.jpg" alt="" class="img-fluid rounded my-1 mx-auto d-block">
+        <h6 class="fw-bold text-center my-1">Gas Stove/Burner Services</h6>
+      </div>
+    </div>
+  </section>
+   <!-- Recommended   -->
+  <section class="container my-5">
+    <h4 class="my-2 fs-3  text-md-start text-sm-center">Recommended</h4>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <img src="./img/r1.jpg" alt="" class="img-fluid rounded my-1 mx-auto d-block">
+        <h6 class="fw-bold text-center my-1">Gas Stove/Burner Services</h6>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <img src="./img/r2.jpg" alt="" class="img-fluid rounded my-1 mx-auto d-block">
+        <h6 class="fw-bold text-center my-1">Gas Stove/Burner Services</h6>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <img src="./img/r3.jpg" alt="" class="img-fluid rounded my-1 mx-auto d-block">
+        <h6 class="fw-bold text-center my-1">Gas Stove/Burner Services</h6>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <img src="./img/r4.jpg" alt="" class="img-fluid rounded my-1 mx-auto d-block">
+        <h6 class="fw-bold text-center my-1">Gas Stove/Burner Services</h6>
+      </div>
+    </div>
+  </section>
+
+  <!--Why Choose Us -->
+  <div class="container">
+    <div class="d-flex align-items-center">
+      <div class="line mb-1 me-1"></div>
+      <h3 class="h6 fw-bold">Why Choose Us</h3>
+    </div>
+    <h3 class="fw-bold">Because we care about your safety</h3>
+    <div class="row align-items-center ">
+      <div class="col-md-5">
+        <div class="row align-item-center justify-content-center">
+          <div class="col-md-6 py-4 d-flex align-items-center">
+            <img src="./img/f1.jpg" width="40" class="img-fluid d-block me-2" alt="">
+            <h3 class="h5 fw-bold">Ensuring Masks</h3>
+          </div>
+          <div class="col-md-6 p-4  d-flex align-items-center">
+            <img src="./img/f2.jpg" width="40" class="img-fluid d-block  me-2" alt="">
+            <h3 class="h5 fw-bold">24/7 Support</h3>
+          </div>
+          <div class="col-md-6  p-4 d-flex align-items-center">
+            <img src="./img/f3.jpg" width="40" class="img-fluid d-block me-2" alt="">
+            <h3 class="h5 fw-bold">Sanitizing Hands & Equipment</h3>
+          </div>
+          <div class="col-md-6  p-4 d-flex align-items-center">
+            <img src="./img/f4.jpg" width="40" class="img-fluid d-block  me-2" alt="">
+            <h3 class="h5 fw-bold">Ensuring Gloves</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <img src="./img/why-choose-us.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Count Container -->
+   <div class="count_countainer container-fluid my-5">
+    <div class="container py-4">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-4 my-3 ">
+          <h2 class="h1 fw-bold text-center">20,000 +</h2>
+          <h4 class="h4 fw-light text-center">Service Providers</h4>
+        </div>
+        <div class="col-md-4 my-3">
+          <h2 class="h1 fw-bold text-center">500,000 +</h2>
+          <h4 class="h4 fw-light text-center">Orders Received</h4>
+        </div>
+        <div class="col-md-4 my-3">
+          <h2 class="h1 fw-bold text-center">450,000 +</h2>
+          <h4 class="h4 fw-light text-center">5 Star Review</h4>
+        </div>
+
+      </div>
+    </div>
+   </div>
+
+   <!-- hOW IT WORK  -->
+    <div class="container">
+      <div class="d-flex align-items-center">
+        <div class="line mb-1 me-1"></div>
+        <h3 class="h6 fw-bold">How it work</h3>
+      </div>
+      <h2 class="my-2 fw-bold ">Easiest way to get a service</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6 col-sm-12">
+          <img src="./img/app.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-6 col-sm-12 py-2 px-2 ">
+          <div class="feature_list  d-flex align-items-center justify-content-center">
+            <div class="d-flex me-4">
+              <div class="rounded_div rounded rounded-circle position-relative">
+              <div class="number_div position-absolute fw-bold">1</div>
+            </div>
+            </div>
+            <div class="feature_right">
+              <h4>Select the Service</h4>
+              <h6>Pick the service you are looking for- from the website or the app.</h6>
+            </div>
+          </div>
+          <div class="feature_list py-4 d-flex align-items-center justify-content-center">
+            <div class="d-flex me-4">
+              <div class="rounded_div rounded rounded-circle position-relative">
+              <div class="number_div position-absolute fw-bold ">2</div>
+            </div>
+            </div>
+            <div class="feature_right">
+              <h4>Pick your schedulee</h4>
+              <h6>Pick your convenient date and time to avail the service. Pick the service provider based on their rating.</h6>
+            </div>
+          </div>
+          <div class="feature_list  d-flex align-items-center justify-content-center">
+            <div class="d-flex me-4">
+              <div class="rounded_div rounded rounded-circle position-relative">
+              <div class="number_div position-absolute fw-bold ">3</div>
+            </div>
+            </div>
+            <div class="feature_right">
+              <h4>Place Your Order & Relax</h4>
+              <h6>Review and place the order. Now just sit back and relax. We’ll assign the expert service provider’s schedule for you.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Some Happy Face -->
+  <div class="bg_color mt-5 ">
+    <div class="container py-5  ">
+      <div class="d-flex align-items-center">
+        <div class="line me-2 mb-1 "></div>
+        <h6 class="fs-6 fw-bold">Some happy face</h6>
+      </div>
+      <h2 class="fs-2 fw-semibold mb-3">Real Happy Customers, Real Stories</h2>
+      <div class="row my-5">
+        <div class="col-md-6 col-sm-12 d-flex">
+          <div class="line_hori"></div>
+          <p class="lh-lg mt-2 ms-3 fst-italic fs-5">“ It was my marriage and wasn’t getting schedule from any beauty parlor. So, I downloaded Sheba.xyz app and found that it has all of my requirements. The beautician arrived in time and was really amazing. Thank you. <br>
+            <span class="d-block mt-2">- Zeba Fariba <br>
+              Management Trainee</span>
+          </p>
+          
+        </div>
+        <div class="col-md-6 col-sm-12 d-flex mt-sm-5 mt-md-0 mt-lg-0">
+          <img class="img-fluid " src="./img/testimonial.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Get-app-downloade-link -->
+   <div class="container mt-5">
+    <div class="row align-items-center">
+      <div class="col-md-5">
+        <img class="img-fluid" src="./img/app-download.png" alt="">
+      </div>
+      <div class="col-md-7">
+        <div class="d-flex align-items-center">
+          <div class="line me-2 mb-1 "></div>
+          <h6 class="fs-6 fw-bold">Some happy face</h6>
+        </div>
+        <h2>Real Happy Customers, Real Stories</h2>
+        <p>Give us your mobile number. You’ll get an SMS with the app download link.</p>
+        <div class="d-flex flex-nowrap">
+          <input class="w-75 h-75 p-3 rounded border input-field" type="text" placeholder="Type Your Phone Number">
+          <button class="rounded border bg-danger  text-white">Get the app</button>
+        </div>
+        <div class="d-flex gap-3 mt-4">
+          <img class="img-fluid w-25" src="./img/app-store.png" alt="">
+          <img class="img-fluid w-25" src="./img/play-store.png" alt="">
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <!-- Requast Service -->
+  <div class="mt-5 bg_color position-relative">
+    <div class="container py-5 ">
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <h4 class="fw-semibold">Can’t find your desired service? Let us know 24/7 in 16516.</h4>
+          <button class="rounded border px-4 py-3 bg-danger text-white fw-medium">Request a service</button>
+        </div>
+        <div class="col-md-4  d-none d-md-block ">
+          <img class="img-fluid position-absolute contract_img_pos" src="./img/service-request.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
